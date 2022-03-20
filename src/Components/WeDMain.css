@@ -1,0 +1,30 @@
+.container-items-webdev{
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.items-webdev{
+    padding-top: 30%;
+    height: 200px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    backdrop-filter: blur(5px);
+
+    background-color: rgb(24, 23, 23);
+
+    border-radius: 26px;
+
+    box-shadow: 35px 35px 68px 0px rgba(140, 140, 140, 0.5), inset -8px -8px 16px 0px rgba(140, 137, 137, 0.6), inset 0px 11px 28px 0px rgb(150, 140, 140);
+}
+
+.items-webdev:hover{
+    transform: scale(0.95);
+}
+
